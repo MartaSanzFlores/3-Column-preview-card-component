@@ -1,98 +1,128 @@
 *{
-    margin: auto 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
-html {
+main{
+    min-height: 100vh;
     background: hsl(0, 0%, 95%);
+    position: relative;
 }
 
 img {
-    width: 20%;
+    width: 52%;
     height: auto;
-    padding: 15%;
-    margin: 0;
+    padding: 15% 15% 0% 15%;
 }
 
 .container {
-    height: 100vh;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    bottom: 20%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0% 15% 0% 15%;
+    border-radius: 5%;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
-    width: 85%;
-    height: 50vh;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
 }
 
 .suvs {
     background-color: hsl(184, 100%, 22%);
-    width: 85%;
-    height: 50vh;
 }
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
-    width: 85%;
-    height: 50vh;
+    border-top-right-radius: 1vh;
+    border-bottom-right-radius: 1vh;
 }
 
 .card > p {
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Lexend Deca', sans-serif;
-    margin: 10% 17% 0% 15%;
-    line-height: 1.5em;
+    line-height: 1.6em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0% 0% 20% 0%;
 }
 
 h1 {
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
-    margin: 0% 0% 0% 15%;
+    font-size: 3.5em;
+    margin-left: 15%;
 }
 
 button{
-    color: hsl(0, 0%, 95%);
-    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);;
     font-family: 'Lexend Deca', sans-serif;
-    margin: 20% 0% 0% 15%;
-    padding: 5%;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 50%;
     height: auto;
     border-radius: 2em;
+    padding: 2vh;
+    margin-left: 15%;
+    margin-bottom: 10%;
 }
-
-button:hover{
-    cursor: pointer;
-}
-
 
 .b-sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.b-sedans:hover {
     background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
 }
 
 .b-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.b-suvs:hover {
     background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
 }
 
 .b-luxury {
-    background-color: hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
 }
 
- 
+.b-luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .container {
         flex-direction: column;
-        /* font-size: 0.5em;
-        padding: 0; */
+        top: 5%;
+        left: 10%;
+        right: 10%;
+        bottom: 5%;
+    }
+
+    .card > p {
+        font-size: 0.8em;
+        line-height: 1.4em;
     }
 } 
 
