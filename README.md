@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://martasanzflores.github.io/3-Column-preview-card-component/](https://your-solution-url.com)
-- Live Site URL: [https://github.com/MartaSanzFlores/3-Column-preview-card-component.git](https://your-live-site-url.com)
+- Solution URL: [https://martasanzflores.github.io/3-Column-preview-card-component/](https://martasanzflores.github.io/3-Column-preview-card-component/)
+- Live Site URL: [https://github.com/MartaSanzFlores/3-Column-preview-card-component.git](https://github.com/MartaSanzFlores/3-Column-preview-card-component.git)
 
 ## My process
 
