@@ -127,6 +127,16 @@ button{
         padding: 1.5vh;
     }
 
+    .sedans {
+        border-top-right-radius: 1vh;
+        border-bottom-left-radius: 0vh;
+    }
+
+    .luxury {
+        border-top-right-radius: 0vh;
+        border-bottom-left-radius: 1vh;
+    }
+
 } 
 
 @media only screen and (max-height: 800px) {
